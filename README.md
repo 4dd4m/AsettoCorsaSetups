@@ -6,4 +6,4 @@
 * car setups
 * MOTEC telemetry
 
-Clone this into `../%documents%/Asetto Corsa Competizione/`
+Clone this into `../%documents%/`. Rename the folder to `Assetto Corsa Competizione`.
