@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<LDXFile Locale="Hungarian_Hungary.1250" DefaultLocale="C" Version="1.6">
+ <Layers>
+  <Layer>
+   <MarkerBlock>
+    <MarkerGroup Name="Beacons" Index="0">
+     <Marker Version="100" ClassName="BCN" Name="0, id=99" Flags="13" Time="2.14169000000000000e+08"/>
+     <Marker Version="100" ClassName="BCN" Name="1, id=99" Flags="13" Time="3.06111000000000000e+08"/>
+     <Marker Version="100" ClassName="BCN" Name="2, id=99" Flags="13" Time="3.98303000000000000e+08"/>
+     <Marker Version="100" ClassName="BCN" Name="3, id=99" Flags="13" Time="4.89775000000000000e+08"/>
+     <Marker Version="100" ClassName="BCN" Name="4, id=99" Flags="13" Time="5.79614000000000000e+08"/>
+     <Marker Version="100" ClassName="BCN" Name="5, id=99" Flags="13" Time="6.69778000000000000e+08"/>
+     <Marker Version="100" ClassName="BCN" Name="6, id=99" Flags="13" Time="7.60890000000000000e+08"/>
+    </MarkerGroup>
+   </MarkerBlock>
+   <RangeBlock/>
+  </Layer>
+  <Details>
+   <String Id="Total Laps" Value="8"/>
+   <String Id="Fastest Time" Value="1:29.839"/>
+   <String Id="Fastest Lap" Value="4"/>
+  </Details>
+ </Layers>
+</LDXFile>
