@@ -4,7 +4,7 @@
 	"lastUsedOnboardIndex": 0,
 	"generalMovement": 1,
 	"onboardMovement": 1,
-	"dashcamFactor": 0,
+	"dashcamFactor": 1,
 	"panniniProjection": 0,
 	"helicamDistance": 3000,
 	"helicamFOV": 60,
@@ -12,7 +12,7 @@
 	"helicamTargetCarsMaxDist": 2000,
 	"helicamTargetInterpTime": 1,
 	"helicamDebug": 0,
-	"cameraFOV": [ 54, 54, 54, 54, 54, 54, 54 ],
+	"cameraFOV": [ 54, 54, 54, 54, 54, 40, 54 ],
 	"mapCarCameraData":
 	{
 		"amr_v8_vantage_gt3":
@@ -63,7 +63,7 @@
 		"bmw_m4_gt3":
 		{
 			"cockpitVisMode": 0,
-			"dashInHud": false,
+			"dashInHud": true,
 			"dashInHudWidthLimit": true,
 			"dashOpacity": 1,
 			"offsets": [
@@ -93,9 +93,9 @@
 					"z": 0
 				},
 				{
-					"x": 0,
+					"x": -7.8999948501586914,
 					"y": 0,
-					"z": 0
+					"z": 1.100000262260437
 				},
 				{
 					"x": 0,
@@ -245,7 +245,7 @@
 	"lookWithSteerGamma": 0.5,
 	"lookWithSteerSmoothing": 0.5,
 	"lookAroundSpeed": 15,
-	"horizonLock": 0,
+	"horizonLock": 0.25099998712539673,
 	"enableTrackIR": 1,
 	"tripleWidth": 500,
 	"tripleDistance": 500,
@@ -255,9 +255,9 @@
 	"hDRContrast": 0.69999998807907104,
 	"mirrorFOV": 90,
 	"useGamepadForFreeCamera": 0,
-	"virtualMirrorSize": 0.15000000596046448,
+	"virtualMirrorSize": 0.14999999105930328,
 	"virtualMirrorVerticalOffset": 0,
-	"virtualMirrorHorizontalOffset": 0,
+	"virtualMirrorHorizontalOffset": 13.659999847412109,
 	"tVCamFocusedAperture": 2.7999999523162842,
 	"tVCamStaticAperture": 16,
 	"tVCamStaticFocusDistance": 100000,
