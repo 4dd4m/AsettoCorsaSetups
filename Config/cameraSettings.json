@@ -2,9 +2,9 @@
 	"version": 3,
 	"lastUsedCamIndex": 5,
 	"lastUsedOnboardIndex": 0,
-	"generalMovement": 1,
+	"generalMovement": 0,
 	"onboardMovement": 1,
-	"dashcamFactor": 1,
+	"dashcamFactor": 0,
 	"panniniProjection": 0,
 	"helicamDistance": 3000,
 	"helicamFOV": 60,
@@ -12,7 +12,7 @@
 	"helicamTargetCarsMaxDist": 2000,
 	"helicamTargetInterpTime": 1,
 	"helicamDebug": 0,
-	"cameraFOV": [ 54, 54, 54, 54, 54, 40, 54 ],
+	"cameraFOV": [ 54, 54, 54, 54, 54, 42, 54 ],
 	"mapCarCameraData":
 	{
 		"amr_v8_vantage_gt3":
@@ -239,13 +239,58 @@
 				}
 			],
 			"pitches": [ 0, 0, 0, 0, 0, 0, 0 ]
+		},
+		"bmw_m6_gt3":
+		{
+			"cockpitVisMode": 0,
+			"dashInHud": false,
+			"dashInHudWidthLimit": true,
+			"dashOpacity": 1,
+			"offsets": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 1,
+					"y": 0,
+					"z": -1
+				},
+				{
+					"x": -3,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": -5.5999970436096191,
+					"y": 0,
+					"z": 7.2999954223632813
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			],
+			"pitches": [ 0, 0, 0, 0, 0, -2.0999999046325684, 0 ]
 		}
 	},
 	"lookWithSteerGain": 0,
 	"lookWithSteerGamma": 0.5,
 	"lookWithSteerSmoothing": 0.5,
 	"lookAroundSpeed": 15,
-	"horizonLock": 0.25099998712539673,
+	"horizonLock": 0,
 	"enableTrackIR": 1,
 	"tripleWidth": 500,
 	"tripleDistance": 500,

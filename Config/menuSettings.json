@@ -1,8 +1,8 @@
 {
-	"singlePlayerSeason": "BP_2019",
+	"singlePlayerSeason": "BP_2022",
 	"seasonGameMode":
 	{
-		"BP_2019": "Practice",
+		"BP_2019": "Hotlap",
 		"IGT_2019": "Practice",
 		"GT4_2019": "Practice",
 		"BP_2018": "Practice",
@@ -10,7 +10,7 @@
 		"BP_2020": "Practice",
 		"BP_2021": "Practice",
 		"Free": "Practice",
-		"BP_2022": "Practice",
+		"BP_2022": "Hotlap",
 		"GT2_2023": "Practice",
 		"BP_2023": "Practice",
 		"BP_2024": "Practice"
@@ -28,6 +28,7 @@
 					"opponentCount": 24,
 					"carGroups":
 					{
+						"GT3": 1
 					},
 					"raceEventType": "Free",
 					"timeOfDay": 9,
@@ -36,7 +37,7 @@
 					"raceLength": 0,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "nurburgring",
+					"trackName": "watkins_glen",
 					"skillMultiplier": 90,
 					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
@@ -58,22 +59,22 @@
 				},
 				"Hotlap":
 				{
-					"carName": "S9_563_1",
-					"driverName": "Caldarelli_A",
-					"opponentCount": 0,
+					"carName": "SP9_36_1",
+					"driverName": "Buchardt_A",
+					"opponentCount": 24,
 					"carGroups":
 					{
 					},
 					"raceEventType": "Free",
-					"timeOfDay": 16,
+					"timeOfDay": 11,
 					"practiceLength": 0,
 					"qualifyLength": 0,
-					"raceLength": 0,
+					"raceLength": -1,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "nurburgring",
-					"skillMultiplier": 100,
-					"aggroMultiplier": 100,
+					"trackName": "watkins_glen",
+					"skillMultiplier": 90,
+					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -2737,7 +2738,7 @@
 				{
 					"carName": "S22_46_1",
 					"driverName": "Rossi_V",
-					"opponentCount": 25,
+					"opponentCount": 24,
 					"carGroups":
 					{
 					},
@@ -2770,22 +2771,23 @@
 				},
 				"Hotlap":
 				{
-					"carName": "S22_46_1",
-					"driverName": "Rossi_V",
-					"opponentCount": 0,
+					"carName": "666-241107-231936.json",
+					"driverName": "driver1.json",
+					"opponentCount": 24,
 					"carGroups":
 					{
+						"GT3": 1
 					},
 					"raceEventType": "Free",
-					"timeOfDay": 16,
+					"timeOfDay": 11,
 					"practiceLength": 0,
 					"qualifyLength": 0,
-					"raceLength": 0,
+					"raceLength": -1,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "imola",
-					"skillMultiplier": 100,
-					"aggroMultiplier": 100,
+					"trackName": "watkins_glen",
+					"skillMultiplier": 90,
+					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -4156,7 +4158,9 @@
 	},
 	"globalSeasonTrackName":
 	{
-		"BGT_2019": "zolder"
+		"BGT_2019": "zolder",
+		"BP_2019": "watkins_glen",
+		"BP_2022": "watkins_glen"
 	},
 	"globalOpponentCount": 24,
 	"globalOpponentSkill": 90,
@@ -4166,8 +4170,8 @@
 	{
 	},
 	"useNewGenGT3": 1,
-	"weatherType": "Custom",
-	"bUseEnduranceKit": false,
+	"weatherType": "Cloudy",
+	"bUseEnduranceKit": true,
 	"audio":
 	{
 		"main": 0.079999998211860657,

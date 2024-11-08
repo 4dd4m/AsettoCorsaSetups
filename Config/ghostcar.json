@@ -2,7 +2,7 @@
 	"enabled": 1,
 	"useInPractice": 0,
 	"useDifferentOpponent": 1,
-	"opponentModelType": "Ferrari_296_GT3",
+	"opponentModelType": "BMW_M4_GT3",
 	"useExperimentalStateColor": 1,
 	"offsetTimeMS": 0,
 	"ghostQuality": 2
